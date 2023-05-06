@@ -39,7 +39,7 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
-public class Czsapp extends Spider {
+public class clx extends Spider {
     private static final Pattern Y = Pattern.compile("\"([^\"]+)\";var [\\d\\w]+=function dncry.*md5.enc.Utf8.parse\\(\"([\\d\\w]+)\".*md5.enc.Utf8.parse\\(([\\d]+)\\)");
     private static final Pattern pY = Pattern.compile("video: \\{url: \"([^\"]+)\"");
     private static final Pattern m = Pattern.compile("subtitle: \\{url:\"([^\"]+\\.vtt)\"");
